@@ -13,12 +13,13 @@ package main
 
 import "fmt"
 
-func main3(){
+func main3() {
 	firstName, _ := getNames()
 	fmt.Println("Welcome, ", firstName)
+	main4()
 
 }
 
-func getNames() (string, string){
+func getNames() (string, string) {
 	return "John", "Doe"
 }
